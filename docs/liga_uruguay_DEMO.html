@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="es" data-theme="dark">
-<head>
+<head><script>
+(function(){
+  var expiry = new Date('2026-06-22T19:33:15');
+  if(new Date() > expiry){
+    document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;background:#06111e;flex-direction:column;gap:20px;">' +
+      '<div style="font-family:Oswald,sans-serif;font-size:32px;color:#c8a74d;letter-spacing:4px;">BASINGAME</div>' +
+      '<div style="color:#94a3b8;font-size:14px;">Este demo ha expirado.</div>' +
+      '<div style="color:#475569;font-size:12px;">Contactá a Gino Basignana para acceso completo.</div>' +
+      '<a href="mailto:info@basingame.com" style="margin-top:10px;background:#c8a74d;color:#06111e;padding:10px 24px;border-radius:4px;font-weight:700;text-decoration:none;">CONTACTAR</a>' +
+      '</div>';
+  }
+})();
+</script>
 <link rel="icon" type="image/png" href="https://ginobasignana-web.github.io/x7k2m9p4q/logolub.png">
 <link rel="apple-touch-icon-precomposed" href="https://ginobasignana-web.github.io/x7k2m9p4q/logolub.png"><link rel="apple-touch-icon" href="https://ginobasignana-web.github.io/x7k2m9p4q/logolub.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -790,16 +802,6 @@ tbody tr:hover td {
 
 </style>
 </head>
-<script>
-(function(){
-  var exp = 1781384574738;
-  if(Date.now() > exp){
-    document.addEventListener('DOMContentLoaded', function(){
-      document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;background:#0d1d37;color:#fff;font-family:sans-serif;flex-direction:column;gap:20px"><h1 style="color:#c8a74d">BASINGAME</h1><p style="font-size:1.2rem">Este demo ha expirado.</p><p style="color:#888">Contactá a BASINGAME para acceso completo.</p></div>';
-    });
-  };
-})();
-</script>
 <body>
 
 <div id="splash-screen" style="position:fixed;inset:0;z-index:99999;background:#060d18;display:flex;align-items:center;justify-content:center;overflow:hidden;">
@@ -816,11 +818,11 @@ tbody tr:hover td {
         <span style="color:rgba(200,167,77,0.6);">LIGA URUGUAYA DE BÁSQUETBOL 2025/26</span>
       </div>
       <div style="display:flex;gap:32px;margin-bottom:48px;">
-        <div style="text-align:center;"><div style="font-family:'Oswald',sans-serif;font-size:32px;color:#c8a74d;font-weight:700;">19</div><div style="font-size:9px;color:rgba(255,255,255,0.35);letter-spacing:2px;">EQUIPOS</div></div>
+        <div style="text-align:center;"><div style="font-family:'Oswald',sans-serif;font-size:32px;color:#c8a74d;font-weight:700;">12</div><div style="font-size:9px;color:rgba(255,255,255,0.35);letter-spacing:2px;">EQUIPOS</div></div>
         <div style="width:1px;background:rgba(255,255,255,0.08);"></div>
-        <div style="text-align:center;"><div style="font-family:'Oswald',sans-serif;font-size:32px;color:#c8a74d;font-weight:700;">386</div><div style="font-size:9px;color:rgba(255,255,255,0.35);letter-spacing:2px;">PARTIDOS</div></div>
+        <div style="text-align:center;"><div style="font-family:'Oswald',sans-serif;font-size:32px;color:#c8a74d;font-weight:700;">132</div><div style="font-size:9px;color:rgba(255,255,255,0.35);letter-spacing:2px;">PARTIDOS</div></div>
         <div style="width:1px;background:rgba(255,255,255,0.08);"></div>
-        <div style="text-align:center;"><div style="font-family:'Oswald',sans-serif;font-size:32px;color:#c8a74d;font-weight:700;">219K+</div><div style="font-size:9px;color:rgba(255,255,255,0.35);letter-spacing:2px;">JUGADAS PBP</div></div>
+        <div style="text-align:center;"><div style="font-family:'Oswald',sans-serif;font-size:32px;color:#c8a74d;font-weight:700;">38K+</div><div style="font-size:9px;color:rgba(255,255,255,0.35);letter-spacing:2px;">JUGADAS PBP</div></div>
       </div>
       <button id="splash-enter" onclick="enterDashboard()" style="background:linear-gradient(135deg,#c8a74d,#e8c76d);color:#060d18;border:none;padding:16px 48px;font-family:'Oswald',sans-serif;font-size:14px;font-weight:700;letter-spacing:3px;cursor:pointer;border-radius:4px;box-shadow:0 8px 32px rgba(200,167,77,0.3);transition:all 0.3s;text-transform:uppercase;">
         INGRESAR A LA PLATAFORMA
@@ -1737,7 +1739,7 @@ function enterDashboard() {
     <div id="glosario-content" style="max-height:78vh;overflow-y:auto;padding-right:6px;"></div>
     <div style="padding:16px 20px 8px;border-top:1px solid rgba(200,167,77,0.2);margin-top:8px;text-align:center;">
       <div style="font-size:9px;color:#c8a74d;font-weight:700;letter-spacing:2px;margin-bottom:6px;">ORIGEN DE DATOS</div>
-      <div style="font-size:11px;color:var(--txt2);line-height:2;">Fuente oficial: <a href="https://www.laliganacional.com.ar/" target="_blank" style="color:#10b981;">www.laliganacional.com.ar</a><br>Box Score y Play by Play oficiales &middot; Temporada 2025/26 &middot; 383+ partidos &middot; 19 equipos &middot; 330+ jugadores</div>
+      <div style="font-size:11px;color:var(--txt2);line-height:2;">Fuente oficial: <a href="https://www.laliganacional.com.ar/" target="_blank" style="color:#10b981;">www.laliganacional.com.ar</a><br>Box Score y Play by Play oficiales &middot; Temporada 2025/26 &middot; 132 partidos &middot; 12 equipos &middot; 223+ jugadores</div>
       <div style="font-size:9px;color:var(--txt3);margin-top:6px;">BASINGAME Analytics Platform &middot; Liga Uruguaya de Básquetbol 2025/26</div>
     </div>
   </div>
@@ -7508,9 +7510,6 @@ function renderRAT() {
   }
 }
 </style>
-<div style="position:fixed;bottom:0;left:0;right:0;background:linear-gradient(90deg,#0d1d37,#1a3a6e);color:#c8a74d;text-align:center;padding:8px;font-size:13px;z-index:99999;border-top:1px solid #c8a74d;font-family:sans-serif;">
-  🏀 <strong>BASINGAME Demo</strong> — Válido hasta 2026-06-13 &nbsp;|&nbsp;
-  <a href="mailto:info@basingame.com" style="color:#fff;text-decoration:none">Contactar para acceso completo →</a>
-</div></body>
+</body>
 </html> 
  
